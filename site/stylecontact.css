@@ -37,7 +37,8 @@ body{
     text-align: center;
     margin-top: 20px;
 }
-#mail{
+@media(min-width: 1200px){
+	#mail{
     color: #f6b319;
 	padding-right: 20px;
 	padding-bottom: 10px;
@@ -47,6 +48,32 @@ body{
 	text-shadow: 1px 1px 1px #222;
     text-align: center;	
 }
+}
+@media (min-width: 768px) and (max-width:1199px){
+	#mail{
+    color: #f6b319;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	font-size: 40px;
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+    text-align: center;	
+}	
+}
+@media (max-width:767px){
+	#mail{
+    color: #f6b319;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+    text-align: center;	
+}
+}
+
 .ahr{
 	text-decoration: none;
 	color: #f6b319;
