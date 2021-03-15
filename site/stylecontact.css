@@ -51,8 +51,8 @@ body{
 	text-decoration: none;
 	color: #f6b319;
 }
-@media (max-width:  767px){
+@media (max-width: 615px){
 	#mail{
-		font-size: 50px;
+		font-size: 30px;
 	}
 }
