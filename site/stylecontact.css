@@ -51,3 +51,8 @@ body{
 	text-decoration: none;
 	color: #f6b319;
 }
+@media (max-width:  767px){
+	#mail{
+		font-size: 50px;
+	}
+}
